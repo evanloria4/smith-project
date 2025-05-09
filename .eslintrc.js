@@ -6,12 +6,12 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'airbnb',
-    'airbnb/hooks',
-    'airbnb-typescript',
-    'plugin:prettier/recommended',
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "plugin:prettier/recommended",
   ],
   // Specify parser to use for typescript code
   parser: '@typescript-eslint/parser',
