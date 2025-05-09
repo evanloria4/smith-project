@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "moduleDetection": "force",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    ".eslintrc.js",
+    "lib",
+    "declarations.d.ts"
+  ],
+  "exclude": [
+    "./src/components/ui/**",
+  ],
+}
