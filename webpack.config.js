@@ -12,7 +12,8 @@ module.exports = {
     path: DIST_DIR,
     publicPath: '/',
     filename: 'bundle.js',
-  },devServer: {
+  },
+  devServer: {
     static: {
       directory: DIST_DIR, // Serve from dist
     },
@@ -23,7 +24,7 @@ module.exports = {
     proxy: [
       {
         context: ['/api'],
-        target: 'http://localhost:3000',
+        target: 'http://localhost:8080',
         changeOrigin: true,
       },
     ],
