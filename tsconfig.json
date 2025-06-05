@@ -20,14 +20,11 @@
     }
   },
   "include": [
-    "./src/**/*",
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    ".eslintrc.js",
-    "lib",
-    "declarations.d.ts"
+    "src/**/*",
+    "tailwind.config.ts",
   ],
   "exclude": [
-    "./src/components/ui/**",
-  ],
+    "node_modules",
+    "postcss.config.js",
+  ]
 }
