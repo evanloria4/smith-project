@@ -43,9 +43,9 @@ module.exports = {
   // Ignore files in the test directory
   ignorePatterns: [
     '/tests/*',
-    '/src/components/ui/*',
     '/node_modules/**',
     '/dist/**',
     'webpack.config.js',
+    'postcss.config.js',
   ],
 };
